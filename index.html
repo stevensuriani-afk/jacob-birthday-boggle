@@ -6,7 +6,7 @@ const boardEl=document.getElementById('board'),guessEl=document.getElementById('
 let board=[],used=new Set(),boardUsed=new Set(),bank=0,total=0,selected=[];
 const GAME_SECONDS=60, BANK_CAP=0.75;
 // Set to the /exec URL of the EXISTING Sam Apps Script deployment after updating it.
-const JACOB_SCRIPT_URL='';
+const JACOB_SCRIPT_URL='https://script.google.com/macros/s/AKfycbydAoei5qLaRW58kzW3fTY_JAd1hnqJa3cIwfQ4GCJjk5og4gM6nM4zZ4m1nH_bzlSNPQ/exec';
 let jacobToken='';
 let realEntryPending=false;
 function jacobRequest(params){
